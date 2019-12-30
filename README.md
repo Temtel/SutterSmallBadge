@@ -40,4 +40,3 @@ global distributors and partners to push open hardware movement.<br>
 Sutter Health is a not-for-profit healthcare system of hospitals, clinics and specialty care centers with locations in Northern California, Southern Oregon and Hawaii.
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/Grove_LED_Bar)](https://github.com/igrigorik/ga-beacon)
