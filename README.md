@@ -10,7 +10,7 @@ Sutter Small Badge Arduino Library
 
 - [Sutter Small Badge ](https://www.sutterhealth.org/SutterSmallBadge.html)
 
-<STRONG>This code is not working yet, use at your own risk.</strong>
+<STRONG> 12/29/19 This code is not working yet, use at your own risk.</strong>
 
 
 The Sutter Small Badge is an ATMEGA328P-based hackable badge in the shape of the Sutter Health logo, with a MY9221 LED driver, 12 LED's and a single SK6812MINI multi-color LED.  Most of the unused pins on the 328P are broken out to 1mm Pitch headers on the badge edge, with labels on the back.  There are 3 rows of LED's arranged between the silk lines of the shroud of the Sutter Logo, one blue, center white, and third blue.
