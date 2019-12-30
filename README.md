@@ -2,7 +2,7 @@ Sutter Small Badge Arduino Library
 -------------------------------------------------------------
 
 <figure class="half">
-    <img src="https://github.com/Temtel/SutterSmallBadge/raw/master/IMG_1224.jpg>
+    <img src="IMG_1224.jpg">
   
 </figure>
 
