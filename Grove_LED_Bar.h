@@ -41,7 +41,7 @@
 
 enum LedType {
     LED_TYPE_SHIFT  = 16,
-    LED_BAR_10      = 0 << LED_TYPE_SHIFT | 10,
+    LED_BAR_10      = 0 << LED_TYPE_SHIFT | 12,
     LED_CIRCULAR_24 = 0 << LED_TYPE_SHIFT | 24,
     LED_MAX_COUNT   = 0 << LED_TYPE_SHIFT | 24,
     //LED_NEW_DEVICE = 1 << LED_TYPE_SHIFT | 10,
