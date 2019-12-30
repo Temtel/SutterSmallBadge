@@ -10,6 +10,9 @@
   Modify: Long, 2015-01-07
   User can change the brightness level for each LED segment
   Rename constant to avoid name conflict
+  
+  Modify: Temtel, 2019-12-29
+  12 LED's instead of 10.  Function name changes.
 
   The MIT License (MIT)
 
