@@ -37,8 +37,8 @@
   THE SOFTWARE.
 
 */
-#ifndef SutterSmallBadge_H
-#define SutterSmallBadge_H
+#ifndef Sutter_Small_Badge_H
+#define Sutter_Small_Badge_H
 
 #include <Arduino.h>
 
