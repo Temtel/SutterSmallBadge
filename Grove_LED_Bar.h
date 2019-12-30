@@ -34,8 +34,8 @@
   THE SOFTWARE.
 
 */
-#ifndef Grove_LED_Bar_H
-#define Grove_LED_Bar_H
+#ifndef SutterSmallBadge_H
+#define SutterSmallBadge_H
 
 #include <Arduino.h>
 
@@ -67,9 +67,9 @@ namespace Origin {
     };
 }
 
-class Grove_LED_Bar : Origin::LedDevice {
+class Sutter_Small_Badge : Origin::LedDevice {
 public:
-    Grove_LED_Bar(uint32_t pinClock, uint32_t pinData, bool greenToRed, LedType type) :
+    Sutter_Small_Badge(uint32_t pinClock, uint32_t pinData, bool greenToRed, LedType type) :
         Origin::LedDevice(pinClock, pinData, greenToRed, type) {
     }
     void begin(){}
