@@ -1,4 +1,4 @@
-Grove_LED_Bar	KEYWORD1
+Sutter_Small_Badge	KEYWORD1
 
 setGreenToRed	KEYWORD2
 setLevel	KEYWORD2
