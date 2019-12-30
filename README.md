@@ -1,4 +1,4 @@
-Sutter Small Badge Library
+Sutter Small Badge Arduino Library
 -------------------------------------------------------------
 
 <figure class="half">
