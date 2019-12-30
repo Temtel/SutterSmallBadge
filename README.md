@@ -2,8 +2,8 @@ Sutter Small Badge Library
 -------------------------------------------------------------
 
 <figure class="half">
-    <img src="https://github.com/Seeed-Studio/Grove_LED_Bar/blob/master/Grove_LED_Bar.gif?raw=true" width="300"/>
-  <img src="https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/h/t/httpsstatics3.seeedstudio.comimagesproductgrove20circular20led.jpg" width="300"/>
+    <img src="https://packetchat.com/SutterSmallBadge.jpg>
+  
 </figure>
 
 
