@@ -19,15 +19,9 @@ For more information, please refer to the [wiki](http://www.sutterhealth.org/Sut
 
 ----
 
-This software is based on code that was written by Frankie Chu for seeed studio's Grove LED Bar<br>
-and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). The code in this fork was modified to be<br>
-compatible with a custom-made promotional hackable badge designed by Jonathan Taylor, Sutter Health's Director of Privacy & <br> 
-Information Security Risk.  Check License.txt for more information.<br>
+This software is based on code that was written by Frankie Chu for seeed studio's Grove LED Bar and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). The code in this fork was modified to be compatible with a custom-made promotional hackable badge designed by Jonathan Taylor, Sutter Health's Director of Privacy & Information Security Risk.  Check License.txt for more information.<br>
 
-Contributing to this software is warmly welcomed. You can do this basically by<br>
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
-for operating guide). Adding change log and your contact into file header is encouraged.<br>
-Thanks for your contribution.
+Contributing to this software is warmly welcomed. You can do this basically by [forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above for operating guide). Adding change log and your contact into file header is encouraged. Thanks for your contribution.
 
 Seeed Studio is an open hardware facilitation company based in Shenzhen, China. <br>
 Benefiting from local manufacture power and convenient global logistic system, <br>
