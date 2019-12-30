@@ -1,4 +1,4 @@
-Grove LED Bar && Grove  Circular LED
+Sutter Small Badge Library
 -------------------------------------------------------------
 
 <figure class="half">
@@ -8,23 +8,24 @@ Grove LED Bar && Grove  Circular LED
 
 
 
-- [Grove LED Bar v2.0](https://www.seeedstudio.com/Grove-LED-Bar-v2.0-p-2474.html)
-
-- [Grove - Circular LED](https://www.seeedstudio.com/Grove-Circular-LED-p-1353.html)
+- [Sutter Small Badge ](https://www.sutterhealth.org/SutterSmallBadge.html)
 
 
-Grove LED Bar is comprised of a 10 segment LED gauge bar and an MY9221 LED driver.
-It can be used as a indicator for remaining battery life, voltage, water level, music volume or other values that require a gradient display.
-There are 10 discrete LED bars in the LED bar graph: one red, one yellow, one light green, and the rest green.
+The Sutter Small Badge is an ATMEGA328P-based hackable badge in the shape of the Sutter Health logo, with a MY9221 LED driver, 12 <br>
+LED's and a single SK6812MINI multi-color LED.  Most of the unused pins on the 328P are broken out to 1mm Pitch headers on the badge<br>
+edge, with labels on the back.  There are 3 rows of LED's arranged between the silk lines of the shroud of the Sutter Logo, one <br>
+blue, center white, and third blue.
 
 
-For more information, please refer to the [wiki](http://wiki.seeedstudio.com/Grove-LED_Bar/).
+For more information, please refer to the [wiki](http://www.sutterhealth.org/SutterSmallBadge.html).
 
 
 ----
 
-This software is written by Frankie Chu for seeed studio<br>
-and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt for more information.<br>
+This software is based on code that was written by Frankie Chu for seeed studio's Grove LED Bar<br>
+and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). The code in this fork was modified to be<br>
+compatible with a custom-made promotional hackable badge designed by Jonathan Taylor, Sutter Health's Director of Privacy & <br> 
+Information Security Risk.  Check License.txt for more information.<br>
 
 Contributing to this software is warmly welcomed. You can do this basically by<br>
 [forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
@@ -35,6 +36,8 @@ Seeed Studio is an open hardware facilitation company based in Shenzhen, China. 
 Benefiting from local manufacture power and convenient global logistic system, <br>
 we integrate resources to serve new era of innovation. Seeed also works with <br>
 global distributors and partners to push open hardware movement.<br>
+
+Sutter Health is a not-for-profit healthcare system of hospitals, clinics and specialty care centers with locations in Northern California, Southern Oregon and Hawaii.
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/Grove_LED_Bar)](https://github.com/igrigorik/ga-beacon)
