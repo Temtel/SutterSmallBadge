@@ -1,14 +1,14 @@
 /*
-Grove LED Bar - Wave Example
+Sutter_Small_Badge - Wave Example
 ...
 */
 
-#include <Grove_LED_Bar.h>
+#include <Sutter_Small_Badge.h>
 
 //BE SURE USE CORRESPONDING DEVICE
-//Grove_LED_Bar bar(6, 7, 0, LED_CIRCULAR_24);
+//Sutter_Small_Badge bar(6, 7, 0, LED_CIRCULAR_24);
 //FOR LED_BAR_10
-Grove_LED_Bar bar(7, 6, 0, LED_BAR_10); // Clock pin, Data pin, Orientation
+Sutter_Small_Badge bar(7, 6, 0, LED_BAR_10); // Clock pin, Data pin, Orientation
 
 void setup()
 {
