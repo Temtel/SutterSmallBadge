@@ -6,6 +6,9 @@
 
   Modify: Loovee, 2014-2-26
   User can choose which Io to be used.
+  
+  Modify: Temtel, 2019-12-29
+  10 led's to 12.  rename functions.
 
   The MIT License (MIT)
 
@@ -34,7 +37,7 @@
 #include<stdint.h>
 #endif
 
-#include "Grove_LED_Bar.h"
+#include "Sutter_Small_Badge.h"
 
 enum LedState {
     LED_TURN_OFF,
@@ -128,12 +131,12 @@ namespace Origin {
         digitalWrite(pinClock, LOW);
     }
 }
-void Grove_LED_Bar::setGreenToRed(bool greenToRed) {
+void Sutter_Small_Badge::setGreenToRed(bool greenToRed) {
     reverseShow = greenToRed;
     send();
 }
 
-void Grove_LED_Bar::setLevel(float level) {
+void Sutter_Small_Badge::setLevel(float level) {
     level = max(0.0F, min(countOfShows, level));
     level *= 8; // there are 8 (noticable) levels of brightness on each segment
 
@@ -149,7 +152,7 @@ void Grove_LED_Bar::setLevel(float level) {
     send();
 }
 
-void Grove_LED_Bar::setLed(uint32_t ledNo, float brightness) {
+void Sutter_Small_Badge::setLed(uint32_t ledNo, float brightness) {
     ledNo = max(1, min(countOfShows, (int)ledNo));
     brightness = max(0.0F, min(brightness, 1.0F));
 
@@ -161,7 +164,7 @@ void Grove_LED_Bar::setLed(uint32_t ledNo, float brightness) {
     led[ledNo - 1] = ~(~0 << (uint8_t)(brightness * 8));
     send();
 }
-void Grove_LED_Bar::toggleLed(uint32_t ledNo) {
+void Sutter_Small_Badge::toggleLed(uint32_t ledNo) {
     uint32_t i =
         ledNo <= countOfShows ?
         ledNo - 1 :
@@ -169,21 +172,21 @@ void Grove_LED_Bar::toggleLed(uint32_t ledNo) {
     led[i] = led[i] ? LED_TURN_OFF : LED_FULL_BRIGHTNESS;
     send();
 }
-void Grove_LED_Bar::setBits(uint32_t value) {
+void Sutter_Small_Badge::setBits(uint32_t value) {
     for (uint32_t i = 0; i < countOfLed(); i++, value >>= 1) {
         led[i] = value & 1 ? LED_FULL_BRIGHTNESS : LED_TURN_OFF;
     }
 
     send();
 }
-void Grove_LED_Bar::setLedNum(uint32_t count) {
+void Sutter_Small_Badge::setLedNum(uint32_t count) {
     countOfShows = count;
 
     for (uint32_t i = count; i < countOfLed(); i++) {
         led[i] = LED_TURN_OFF;
     }
 }
-uint32_t Grove_LED_Bar::getBits() {
+uint32_t Sutter_Small_Badge::getBits() {
     uint32_t value = 0;
     for (uint32_t i = 0; i < countOfShows; i++) {
         if (led[i] != LED_TURN_OFF) {
