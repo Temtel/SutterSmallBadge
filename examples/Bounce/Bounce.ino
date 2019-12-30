@@ -1,16 +1,16 @@
 /*
-Grove LED Bar - Bounce Example
+Sutter_Small_Badge - Bounce Example
 This example will show you how to use getBits() function of this library.
 The getBits() function returns the current state so you can modify it.
 Use the setBits() function to save the new state.
 */
 
-#include <Grove_LED_Bar.h>
+#include <Sutter_Small_Badge.h>
 
 //BE SURE USE CORRESPONDING DEVICE
-//Grove_LED_Bar bar(6, 7, 0, LED_CIRCULAR_24);
+//Sutter_Small_Badge bar(6, 7, 0, LED_CIRCULAR_24);
 //FOR LED_BAR_10
-Grove_LED_Bar bar(7, 6, 0, LED_BAR_10); // Clock pin, Data pin, Orientation
+Sutter_Small_Badge bar(7, 6, 0, LED_BAR_10); // Clock pin, Data pin, Orientation
 
 unsigned int state;
 
